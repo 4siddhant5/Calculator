@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base Calculator Button -->
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item> <!-- 0dp for weight-based height -->
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:background">@drawable/bg_button_border</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator">@null</item> <!-- Removes default ripple elevation -->
+    </style>
+
+    <!-- Operator Buttons (+, -, ×, ÷) -->
+    <style name="CalcButton.Operator" parent="CalcButton">
+        <item name="android:background">@drawable/bg_button_operator</item>
+    </style>
+
+    <!-- Special Buttons (AC, ±, %) -->
+    <style name="CalcButton.Special" parent="CalcButton">
+        <item name="android:background">@drawable/bg_button_special</item>
+    </style>
+
+    <!-- Equals Button (=) -->
+    <style name="CalcButton.Equals" parent="CalcButton">
+        <item name="android:background">@drawable/bg_button_equals</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>

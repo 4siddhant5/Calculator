@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <!-- Background -->
+        <color name="bg_calculator_gradient">#FF000000</color> <!-- Your main bg -->
+
+        <!-- Buttons -->
+        <color name="btn_number">#333333</color>       <!-- Dark gray for numbers -->
+        <color name="btn_operator">#FF9500</color>     <!-- Orange for operators -->
+        <color name="btn_equals">#34C759</color>       <!-- Green for equals -->
+        <color name="btn_special">#A6A6A6</color>      <!-- Light gray for AC, ±, % -->
+
+        <!-- Text -->
+        <color name="btn_text_color">#FFFFFF</color>   <!-- White text -->
+
+</resources>
